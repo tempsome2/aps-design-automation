@@ -1,0 +1,18 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/start.js",
+      "env": {
+        "APS_CLIENT_ID": "2807b95ZFtdTrfHCIBmbKRGIMNNSYwAEv9A23pUL8FXgxSsC",
+        "APS_CLIENT_SECRET": "AMiJI8Ka0ohyZMdht20NGM3XIkljoX35eF6vHe9m67EgymL6anxcMFrKLPs6zOCI"
+      }
+    }
+  ]
+}
