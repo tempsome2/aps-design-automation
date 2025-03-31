@@ -15,7 +15,7 @@ app.use(express.static(_path.join(__dirname, "./wwwroot")));
 app.use(
   cookieSession({
     name: "aps_session",
-    keys: [aps_secure_key],
+    keys: ["aps_secure_key"],
     maxAge: 60 * 60 * 1000,
   })
 );
