@@ -160,7 +160,7 @@ class Utils {
     return new Promise(async (fulfill, reject) => {
       const fileStream = _fs.createReadStream(filepath);
 
-      const form = new formdata();
+      const form = new formData();
       if (params) {
         const keys = Object.keys(params);
         for (let i = 0; i < keys.length; i++)
